@@ -35,6 +35,14 @@ body {
   font-size: 50px;
 }
 
+h1,h2,
+#search-form {
+  position: relative;
+  width: 50%;
+  left: 5%;
+  top: 150px;
+}
+
 #Thur {
   box-shadow: 0 0 60px rgb(104, 202, 202);
   width: 150px;
