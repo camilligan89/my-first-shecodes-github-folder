@@ -1,7 +1,7 @@
 body {
   font-family: "Neucha", cursive;
-  width: 900px;
-  height: 750px;
+  width: 1600px;
+  height: 850px;
   border: 10px solid rgb(104, 202, 202);
   padding: 60px;
   margin: 80px;
@@ -10,17 +10,16 @@ body {
 }
 
 #tonight {
-  padding: 30px 20px 30px;
+  margin: 20px 10px 100px 690px;
+  padding: 40px 20px 30px;
   box-shadow: 0 0 60px rgb(104, 202, 202);
-  width: 150px;
-  height: 230px;
+  width: 350px;
+  height: 250px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 30px;
   background: rgb(71, 129, 158);
-  right: 900px;
-  top: 20px;
-}
+  font-size: 50px;
 
 #Tomorrow {
   box-shadow: 0 0 60px rgb(104, 202, 202);
