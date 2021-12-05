@@ -58,10 +58,8 @@ searchForm.addEventListener("submit", enterCity);
 function convertToCelsius(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
-  let temperature = temperatureElement.innerHTML;
-  temperature = Number(temperature);
-  temperatureElement.innerHTML = ((temperature - 32) * 5) / 9;
-  console.log(Math.round);
+  let temperature = ((temperatureElement - 32) * 5) / 9;
+  temperatureElement.innerHTML = Math.round(temperature);
 }
 
 let celsiusLink = document.querySelector("#celsius-link");
